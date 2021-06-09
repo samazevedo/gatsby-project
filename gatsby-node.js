@@ -1,5 +1,5 @@
 const path = require('path');
-const data = require('./data');
+const data = require('./src/data/pageData');
 
 exports.createPages = ({ actions }) => {
     const { createPage } = actions
